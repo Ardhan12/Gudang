@@ -10,15 +10,8 @@
             
               <!--<h3>SARUGO</h3>-->
               <a  href="<?=base_url()?>">
-                            <img src="<?= base_url() ?>assets/images/sarugo-logo.png" width="100%" height="100%" style="margin-left: -25%; margin-top: -3%; " alt="SARUGO" />
+                            <img src="<?= base_url() ?>assets/images/GOODANG.png" width="100%" height="100%" style="margin-left: -25%; margin-top: -3%; " alt="SARUGO" />
                         </a>
-              
-              <p>
-                Jorong Sungai Dadok, Nagari Koto Tinggi, Kecamatan Gunuang Omeh, Kabupaten Lima Puluh Kota <br>
-                Sumatera Barat, Indonesia<br><br>
-                <strong>Telepon:</strong> +628-228-504-6121<br>
-                <strong>Email:</strong> sarugo@limapuluhkota.go.id<br>
-              </p>
               <div class="social-links mt-3">
                 <a href="https://www.youtube.com/channel/UC6XZt7Ylh8I9fdTV5j27NfA" target="_blank" class="youtuve"><i class="bx bxl-youtube"></i></a>
                 <a href="https://www.facebook.com/kampung.wisata.sarugo" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -53,7 +46,7 @@
         &copy; 2020<strong><span> SARUGO</span></strong>
       </div>
       <div class="credits" style="padding-top: 0px;">
-      Designed by <img src="https://limapuluhkotakab.go.id/assets/images/logokominfo.png" style="width: 25px; margin-bottom: 1px"> <a href="https://kominfo.limapuluhkotakab.go.id/"> Diskominfo Kabupaten Lima Puluh Kota</a>
+      Designed by OnGoing Team
       </div>
     </div>
   </footer>

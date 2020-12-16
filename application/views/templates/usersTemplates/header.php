@@ -14,7 +14,7 @@
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
   
-  <link rel="icon" type="image/png" sizes="16x16" href="<?= base_url() ?>assets/images/logo-bulat.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="<?= base_url() ?>assets/images/Logo2.png">
 
 
   <!-- Menyisipkan library Google Maps -->
@@ -72,7 +72,7 @@
     <!-- ======= Header ======= -->
   <!-- headertop -->
   <header id="header" class="fixed-top " style="padding-top: 12px;">
-    <div class="header_top">
+    <!-- <div class="header_top">
       <div id="topheader" class="container">
         <div class="row">
           <div class="col-md-8 col-lg-8 col-sm-8">
@@ -98,11 +98,11 @@
             </div>
           </div>
       </div>
-    </div>
+    </div> -->
     <!-- end headertop -->
     <div class="container d-flex align-items-center" style="padding-left: 5px;">
 
-      <nav class="logo"><a href="<?=base_url()?>"><img src="<?=base_url()?>assets/images/publik-sarugo.png" alt="logo" /></a></nav>
+      <nav class="logo"><a href="<?=base_url()?>"><img src="<?=base_url()?>assets/images/GOODANG.png" alt="logo" /></a></nav>
      
       <nav class="nav-menu d-none d-lg-block">
 

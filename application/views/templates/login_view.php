@@ -8,11 +8,11 @@
     <meta name="description" content="au theme template">
     <meta name="author" content="Hau Nguyen">
     <meta name="keywords" content="au theme template">
-    <link rel="icon" type="image/png" sizes="16x16" href="<?= base_url() ?>assets/images/sarugo-logo-mob.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?= base_url() ?>assets/images/Logo2.png">
 
 
     <!-- Title Page-->
-    <title>SARUGO | Kabupaten Lima Puluh Kota</title>
+    <title>Goodang</title>
 
     <!-- Fontfaces CSS-->
     <link href="<?= base_url() ?>assets/css/font-face.css" rel="stylesheet" media="all">
@@ -39,7 +39,7 @@
 
 <body class="animsition" >
     <div class="page-wrapper" style="padding-bottom: 0px; ";>
-        <div class="page-content--bge5" style="background-image: url('assets/images/6.png')">
+        <div class="page-content--bge5" style="background-image: url('assets/images/SRG.png')">
             <div class="container">
                 <div class="login-wrap" style="padding-top: 100px;">
                     <?php
@@ -57,7 +57,7 @@
                     <div class="login-content">
                     <div class="login-logo">
                         <a href="#">
-                            <img src="<?= base_url() ?>assets/images/sarugo-logo.png" alt="CoolAdmin">
+                            <img src="<?= base_url() ?>assets/images/Logo3.png" alt="CoolAdmin">
                         </a>
                     </div>
                         <div class="login-form">

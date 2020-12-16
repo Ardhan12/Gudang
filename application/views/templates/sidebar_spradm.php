@@ -2,7 +2,7 @@
  <aside class="menu-sidebar d-none d-lg-block">
                     <div >
                     <a  href="home_page">
-                            <img src="<?= base_url() ?>assets/images/sarugo-logo.png" alt="SARUGO" />
+                            <img src="<?= base_url() ?>assets/images/GOODANG.png" alt="SARUGO" />
                         </a>
                     </div>
                     <div class="menu-sidebar2__content">

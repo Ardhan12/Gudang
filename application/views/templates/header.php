@@ -19,11 +19,11 @@ if (isset($this->session->spradmin)) {
     <meta name="description" content="au theme template">
     <meta name="author" content="Hau Nguyen">
     <meta name="keywords" content="au theme template">
-    <link rel="icon" type="image/png" sizes="16x16" href="<?= base_url() ?>assets/images/logo-bulat.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?= base_url() ?>assets/images/Logo2.png">
     <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
 
     <!-- Title Page-->
-    <title>SARUGO | Kabupaten Lima Puluh Kota</title>
+    <title>GOODANG</title>
 
     <!-- Fontfaces CSS-->
     <link href="<?= base_url() ?>assets/css/font-face.css" rel="stylesheet" media="all">
@@ -57,7 +57,7 @@ if (isset($this->session->spradmin)) {
                         <div class="container-fluid">
                             <div class="header-mobile-inner">
                                 <a class="logo" href="home_page">
-                            <img style="width: 150px; position:left;" src="<?= base_url() ?>assets/images/publik-sarugo.png" alt="CoolAdmin" />
+                            <img style="width: 150px; position:left;" src="<?= base_url() ?>assets/images/GOODANG.png" alt="CoolAdmin" />
                         </a>
                                 <button class="hamburger hamburger--slider" type="button">
                                     <span class="hamburger-box">
@@ -170,7 +170,7 @@ if (isset($this->session->spradmin)) {
                         <div class="section__content section__content--p30">
                             <div class="container-fluid">
                                 <div class="header-wrap">
-                                    <h5>WEBSITE RESMI KAMPUNG WISATA SARIBU GONJONG</h5>
+                                    <h5>Lihat Produkmu Disini</h5>
                                     <div class="header-button">
                                         <div class="account-wrap">
                                             <div class="account-item clearfix js-item-menu">
