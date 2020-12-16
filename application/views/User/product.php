@@ -7,7 +7,7 @@
         <div class="d-flex justify-content-between align-items-center">
           <h2>Produk</h2>
           <ol>
-            <li><a href="<?= base_url()?>">Beranda</a></li>
+            <li><a href="<?= base_url()?>">GOODANG</a></li>
             <li>Produk</li>
           </ol>
         </div>

@@ -133,28 +133,7 @@ if (isset($this->session->spradmin)) {
                                                     <i class="fas fa-tag"></i>Produk
                                                 </a>
                                             </li>
-                                        <?php endif ?>
-                                        <?php if (isset($this->session->admin->paket_wisata) && $this->session->admin->paket_wisata) : ?>
-                                            <li>
-                                                <a href="<?= base_url("admin/paketwisata") ?>">
-                                                    <i class="fas fa-bookmark"></i>Paket Wisata
-                                                </a>
-                                            </li>
-                                        <?php endif ?>
-                                        <?php if (isset($this->session->admin->testimoni) && $this->session->admin->testimoni) : ?>
-                                            <li>
-                                                <a href="<?= base_url("admin/testimoni") ?>">
-                                                    <i class="fas fa-comment"></i>Testimoni
-                                                </a>
-                                            </li>
-                                        <?php endif ?>
-                                        <?php if (!isset($this->session->admin->berita) || $this->session->admin->berita) : ?>
-                                            <li>
-                                                <a href="<?= base_url("admin/berita") ?>">
-                                                    <i class="fas fa-desktop"></i>Berita
-                                                </a>
-                                            </li>
-                                        <?php endif ?>
+                                        <?php endif ?>                                   
                                     </ul>
                                 <?php endif ?>
                             </div>
@@ -170,7 +149,7 @@ if (isset($this->session->spradmin)) {
                         <div class="section__content section__content--p30">
                             <div class="container-fluid">
                                 <div class="header-wrap">
-                                    <h5>Lihat Produkmu Disini</h5>
+                                    <h5> </h5>
                                     <div class="header-button">
                                         <div class="account-wrap">
                                             <div class="account-item clearfix js-item-menu">

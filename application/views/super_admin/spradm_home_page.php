@@ -5,7 +5,7 @@
              <div class="row">
                  <div class="col-md-12">
                      <div class="overview-wrap">
-                         <h2 class="title-3">Selamat Datang, Anda Sedang Berada di Halaman Utama!</h2>
+                         <h2 class="title-3">Selamat Datang!</h2>
 
                      </div>
 
@@ -41,7 +41,7 @@
                                         </div>-->
                                  </div>
                              </div>
-                             <img style="width:200%;" src="<?= base_url() ?>assets/images/13.png">
+                             <img style="width:200%;" src="<?= base_url() ?>assets/images/banner/Carousel1.png">
                              <!--<h3 class="title-2">recent reports</h3>
                                         <div class="chart-info">
                                             <div class="chart-info__left">

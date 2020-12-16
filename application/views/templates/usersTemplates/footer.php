@@ -24,17 +24,14 @@
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Menu Pintasan</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="<?=base_url("event")?>">Event</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="<?=base_url("wisata")?>">Wisata</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?=base_url("wisata")?>">Kategori</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="<?=base_url("product")?>">Produk</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="<?=base_url("paket")?>">Paket Wisata</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="<?=base_url("testimoni")?>">Testimoni</a></li>
             </ul>
           </div>
 <div class="col-md-1"></div>
           <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Pemerintah Daerah Kabupaten Lima Puluh Kota</h4>
-            <p>Kampung Wisata Saribu Gonjong Smart Brand Kabupaten Lima Puluh Kota</p>
+            <h4>GOODANG</h4>
+            <p>Your Products Inventory Solution.</p>
 
           </div>
 
@@ -43,7 +40,7 @@
     </div> 
     <div class="container">
       <div class="copyright" style="padding-top: 10px;">
-        &copy; 2020<strong><span> SARUGO</span></strong>
+        &copy; 2020<strong><span> GOODANG</span></strong>
       </div>
       <div class="credits" style="padding-top: 0px;">
       Designed by OnGoing Team

@@ -1,10 +1,10 @@
-<div class="main-content">
-    <div class="section__content section__content--p30">
+<div class="main-content" >
+    <div class="section__content section__content--p30" style="background-color:#E4CEA3">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
                     <div class="overview-wrap">
-                        <h2 class="title-1">Form Input Data Wisata</h2>
+                        <h2 class="title-1">Input Kategori Toko</h2>
                     </div>
                 </div>
             </div>
@@ -18,11 +18,11 @@
                         <form action="<?php echo base_url('admin/wisata/add'); ?>" method="post" enctype="multipart/form-data" class="form-horizontal">
                             <div class="row form-group">
                                 <div class="col col-md-3">
-                                    <label for="text-input" class=" form-control-label">Jenis Wisata</label>
+                                    <label for="text-input" class=" form-control-label">Kategori Toko</label>
                                 </div>
                                 <div class="col-12 col-md-9">
-                                    <input required placeholder="Wisata Alam" type="text" id="judul_banner" name="nama_wisata" class="form-control">
-                                    <small class="form-text text-muted">Masukan jenis wisata , misal : "Wisata Alam"</small>
+                                    <input required placeholder="Sembako" type="text" id="judul_banner" name="nama_wisata" class="form-control">
+                                    <small class="form-text text-muted">Masukan kategori toko, misal : "Sembako"</small>
                                 </div>
                             </div>
                             <div class="row form-group">
@@ -30,7 +30,7 @@
                                     <label class=" form-control-label">Menu</label>
                                 </div>
                                 <div class="col-12 col-md-9">
-                                    <p class="form-control-static">Wisata</p>
+                                    <p class="form-control-static">Kategori</p>
                                 </div>
                             </div>
                             <div class="row form-group">

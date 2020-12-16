@@ -3,10 +3,10 @@
     <section id="breadcrumbs" class="breadcrumbs">
         <div class="container">
             <div class="d-flex justify-content-between align-items-center">
-                <h2>Wisata</h2>
+                <h2>Kategori Toko</h2>
                 <ol>
-                    <li><a href="<?= base_url("") ?>">Beranda</a></li>
-                    <li>Wisata</li>
+                    <li><a href="<?= base_url("") ?>">GOODANG</a></li>
+                    <li>Kategori Toko</li>
                 </ol>
             </div>
         </div>

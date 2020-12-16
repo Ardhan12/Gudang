@@ -102,9 +102,7 @@
                         </form>
                     </div>
                 </div>
-<<<<<<< HEAD
             </div>
-=======
                 
                 <div class="row form-group">
                     <div class="col col-md-3">
@@ -131,4 +129,3 @@
     </div>
     
 </div>
->>>>>>> d022b3a673d675a5f75ebfa6b32d910664f3921d

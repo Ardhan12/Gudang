@@ -8,8 +8,8 @@
     <div class="d-flex justify-content-between align-items-center">
       <h2><?=$wisata->nama_wisata?></h2>
       <ol>
-        <li><a href="<?=base_url("")?>">Beranda</a></li>
-        <li><a href="<?=base_url("wisata")?>">Wisata</a></li>
+        <li><a href="<?=base_url("")?>">GOODANG</a></li>
+        <li><a href="<?=base_url("wisata")?>">Kategori</a></li>
         <li><?=$wisata->nama_wisata?></li>
       </ol>
     </div>

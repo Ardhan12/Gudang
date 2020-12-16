@@ -10,7 +10,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>SARUGO | Kabupaten Lima Puluh Kota</title>
+  <title>GOODANG | Your Product Inventory Solution</title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
   
@@ -107,11 +107,7 @@
       <nav class="nav-menu d-none d-lg-block">
 
         <ul>
-          <li class=""><a href="<?=base_url()?>">Beranda</a></li>
-
-          <li class=""><a href="<?=base_url("#event")?>">Event</a></li>
-
-          <li class="drop-down"><a href="<?=base_url("wisata")?>">Wisata</a>
+          <li class="drop-down"><a href="<?=base_url("wisata")?>">Kategori</a>
             <ul>
             <?php foreach($subMenuWisata as $key => $sub) : ?>
               <li><a href="<?=base_url("wisata/detailwisata?id=$sub->id_wisata")?> "><?=$sub->nama_wisata?></a></li>
@@ -120,53 +116,10 @@
           </li>
 
           <li><a href="<?=base_url("product")?>">Produk</a></li>
-          <li class="drop-down"><a href="<?=base_url("paket")?>" >Paket Wisata</a>
-            <ul>
-              <?php foreach ($subMenuPaketWisata as $key => $paketWisata) : ?>
-                <li><a href="<?=base_url("paket/detailpaket?id_paket_wisata=$paketWisata->id_paket_wisata")?> "><?= $paketWisata->nama_paket_wisata ?> </a></li>
-              <?php endforeach ?>
-            </ul>
+           
+          <li class="" style="margin-left:700px"><a href="<?=base_url("admin")?>">Masuk</a>
+           
           </li>
-          <li><a href="<?=base_url("Testimoni")?>">Testimoni</a></li>
-          <li><a href="<?=base_url("berita")?> ">Berita</a></li>
-
-          <?php foreach ($menu as $key => $sebuahMenu) : ?>
-                <?php $hasChild = false ; $dataSubMenu=[]; ?>
-
-            <?php if($sebuahMenu->status_menu>0) : ?>  <!-- check for status active or not -->
-              <?php foreach ($subMenu as $key => $sebuahSubMenu) : ?>
-                    <?php if($sebuahSubMenu->id_menu==$sebuahMenu->id){
-                      $hasChild =true;
-                      array_push($dataSubMenu,$sebuahSubMenu);
-                    } ?>
-              <?php endforeach ?>
-                  
-                  <!-- if it has child then use this template -->
-                  <?php if($hasChild) : ?>
-                    
-                    <li class="drop-down">
-                      <a >
-                          <?= $sebuahMenu->nama_menu?>
-                        </a>
-                      <ul>
-
-                        <?php foreach ($dataSubMenu as $key => $sebuahDataSubMenu) :?>
-                            <li><a href="<?=base_url("menu?judul_hal_statis=$sebuahDataSubMenu->hal_statis&&?id=$sebuahDataSubMenu->id")?> "><?= $sebuahDataSubMenu->nama_sub_menu ?></a></li>
-                         <?php endforeach ?>
-                      </ul>
-
-                    </li>
-
-                  <?php else : ?>
-                      <li>
-                        <a href="<?=base_url("menu?judul_hal_statis=$sebuahMenu->link_hal_statis&&?id=$sebuahMenu->id")?> "><?= $sebuahMenu->nama_menu?></a>
-                      </li> 
-                  <?php endif ?>
-
-            <?php endif ?> <!-- end of check status -->
-
-          <?php endforeach ?>
-
         </ul>
 
       </nav>

@@ -41,7 +41,7 @@
     <div class="page-wrapper" style="padding-bottom: 0px; ";>
         <div class="page-content--bge5" style="background-image: url('assets/images/SRG.png')">
             <div class="container">
-                <div class="login-wrap" style="padding-top: 100px;">
+                <div class="login-wrap" style="padding-top: 100px; margin-right:100px;">
                     <?php
 
                     if ($this->session->flashdata('message_name')) {
@@ -54,13 +54,13 @@
                     }
                     ?>
                     
-                    <div class="login-content">
+                    <div class="login-content" style="background-color:#E4CEA3;">
                     <div class="login-logo">
                         <a href="#">
                             <img src="<?= base_url() ?>assets/images/Logo3.png" alt="CoolAdmin">
                         </a>
                     </div>
-                        <div class="login-form">
+                        <div class="login-forms">
                             <form action="<?= base_url("admin/login/signin") ?>" method="post" class="text-center">
                                 <div class="form-group">
                                    <!-- <label>Username</label> -->
@@ -73,7 +73,7 @@
                                     <input required class="au-input au-input" type="password" name="password" placeholder="***">
                                 </div>
 
-                                <button class="au-btn  au-btn--green m-b-20" type="submit">sign in</button>
+                                <button class="au-btn   m-b-20" style="background-color:#003049" type="submit">sign in</button>
 
                             </form>
 
