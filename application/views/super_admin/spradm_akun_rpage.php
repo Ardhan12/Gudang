@@ -1,15 +1,12 @@
  <!-- MAIN CONTENT-->
- <div class="main-content">
+ <div class="main-content" style="background-color:#E4CEA3">
      <div class="section__content section__content--p30">
          <div class="container-fluid">
              <div class="row">
-
                  <div class="col-md-12">
                      <div class="overview-wrap">
                          <h2 class="title-1">Data Akun Admin</h2>
-
                      </div>
-
                  </div>
              </div>
              <div class="row m-t-25">
@@ -23,14 +20,14 @@
                      <div class="rs-select2--light rs-select2--md">
                          <form class="form-header form-header" action="akun_cari" method="post">
                              <input class="au-input au-input--w400" type="text" placeholder="Cari data ...">
-                             <button class="au-btn--submit" type="submit">
+                             <button class="au-btn--submit" style="background-color:#003049" type="submit">
                                  <i class="zmdi zmdi-search"></i>
                              </button>
                          </form>
                      </div>
                  </div>
                  <div class="table-data__tool-right">
-                     <a href="akun_create"><button class="au-btn au-btn-icon au-btn--green au-btn--small">
+                     <a href="akun_create"><button class="au-btn au-btn-icon au-btn--small" style="background-color:#003049">
                              <i class="zmdi zmdi-plus"></i>tambah data</button></a>
                      <div class="rs-select2--dark rs-select2--sm rs-select2--dark2">
                          <!-- <select class="js-select2" name="type">
@@ -46,12 +43,6 @@
                  <table class="table table-data2">
                      <thead>
                          <tr>
-                          <!--   <th>
-                                 <label class="au-checkbox">
-                                     <input type="checkbox">
-                                     <span class="au-checkmark"></span>
-                                 </label>
-                             </th>-->
                              <th>no</th>
                              <th>NIP</th>
                              <th>Nama</th>
@@ -59,7 +50,6 @@
                              <th>telepon</th>
                              <th>username</th>
                              <th>aksi</th>
-
                          </tr>
                      </thead>
                      <tbody>
@@ -71,12 +61,6 @@
                                     
                                 ?>
                          <tr>
-                          <!--   <td>
-                                 <label class="au-checkbox">
-                                     <input type="checkbox">
-                                     <span class="au-checkmark"></span>
-                                 </label>
-                             </td>-->
                              <td><?php echo $no; ?></td>
                              <td><?php echo $row->nip_admin; ?></td>
                              <td><?php echo $row->nama_admin; ?></td>
@@ -114,5 +98,4 @@
  <!-- END MAIN CONTENT-->
  <!-- END PAGE CONTAINER-->
  </div>
-
  </div>

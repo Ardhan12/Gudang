@@ -57,7 +57,7 @@
                     <div class="login-content" style="background-color:#E4CEA3;">
                     <div class="login-logo">
                         <a href="#">
-                            <img src="<?= base_url() ?>assets/images/Logo3.png" alt="CoolAdmin">
+                            <img src="<?= base_url() ?>assets/images/banner/LogoNew.png" alt="CoolAdmin">
                         </a>
                     </div>
                         <div class="login-forms">

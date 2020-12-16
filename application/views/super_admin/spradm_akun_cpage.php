@@ -1,13 +1,11 @@
-<div class="main-content">
+<div class="main-content" style="background-color:#E4CEA3">
     <div class="section__content section__content--p30">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
                     <div class="overview-wrap">
                         <h2 class="title-1">Form Input Data Akun Admin</h2>
-
                     </div>
-
                 </div>
             </div>
             <div class="row m-t-25">
@@ -91,72 +89,6 @@
                                     <span class="text-danger"><?php echo form_error('konfpass_admin') ?></span>
                                 </div>
                             </div>
-
-                            <div class="row form-group">
-                                <div class="col col-md-3">
-                                    <label for="text-input" class="d-block mb-0 form-control-label">Hak Akses </label>
-                                </div>
-                                <div class="col-12 col-md-9">
-                                        
-                                      <div class="row ">
-                                            <div class="col-sm">
-                                                <input class="access" name="hal_statis" id="hal_statis" type="checkbox" autocomplete="off"> <label for="hal_statis">Halaman Statis</label> <br>
-                                                <input class="access" name="menu" id="menu" type="checkbox"> <label for="menu">Menu</label><br>
-                                                <input class="access" name="sub_menu" id="sub_menu" type="checkbox" autocomplete="off"> <label for="sub_menu">Sub Menu</label><br>
-                                                <input class="access" name="event" id="event" type="checkbox" autocomplete="off"> <label for="event">Event</label><br>
-                                                <input class="access" name="banner"  id="banner" type="checkbox" autocomplete="off"> <label for="banner">Banner-Slider</label><br>
-                                            </div>
-                                            <div class="col-sm">
-                                                <input class="access" name="wisata" id="wisata" type="checkbox" autocomplete="off"> <label for="wisata">Wisata</label><br>
-                                                <input class="access" name="produk" id="produk" type="checkbox" autocomplete="off"> <label for="produk">Produk</label><br>
-                                                <input class="access" name="paket_wisata" id="paket_wisata" type="checkbox" autocomplete="off"> <label for="paket_wisata">Paket Wisata</label><br>
-                                                <input class="access" name="testimoni" id="testimoni" type="checkbox" autocomplete="off"> <label for="testimoni">Testimoni</label><br>
-                                                <input class="access" name="berita" id="berita" type="checkbox" autocomplete="off"> <label for="berita">Berita</label><br>
-                                            </div>
-                                          <div class="col-sm">
-                                                <input name="all" id="all" type="checkbox"> <label for="all">Semua</label><br>
-                                            </div>
-                                    </div>
-
-                                   <!--  <div required class=" btn-group-toggle row" data-toggle="buttons">
-                            <label class="  rounded access btn border   btn-outline-success  ">
-                                <input  name="hal_statis"  id="hal_statis" type="checkbox" autocomplete="off"> Halaman Statis
-                            </label>
-                            <label class=" rounded access btn border   btn-outline-success">
-                                <input name="menu"  id="menu"  type="checkbox"  > Menu
-                            </label>
-                            <label class=" rounded access btn border   bold btn-outline-success">
-                                <input name="sub_menu"  id="sub_menu"  type="checkbox" autocomplete="off"> Sub Menu
-                            </label>
-                            <label class=" rounded access btn border    bold btn-outline-success">
-                                <input name="event"  id="event"  type="checkbox" autocomplete="off"> Event
-                            </label>
-                            <label class=" rounded access btn border    bold btn-outline-success">
-                                <input name="banner"  id="banner"  type="checkbox" autocomplete="off"> Banner/Slider
-                            </label>
-                            <label class=" rounded access btn border    bold btn-outline-success">
-                                <input name="wisata"  id="wisata"  type="checkbox" autocomplete="off"> Wisata
-                            </label>
-                            <label class=" rounded access btn border    bold btn-outline-success">
-                                <input name="produk"  id="produk"  type="checkbox" autocomplete="off"> Produk
-                            </label>
-                            <label class=" rounded access btn border    bold btn-outline-success">
-                                <input name="paket_wisata"  id="paket_wisata"  type="checkbox" autocomplete="off"> Paket Wisata
-                            </label>
-                            <label class=" rounded access btn border    bold btn-outline-success">
-                                <input name="testimoni"  id="testimoni"  type="checkbox" autocomplete="off"> Testimoni
-                            </label>
-                            <label class=" rounded access btn border    bold btn-outline-success">
-                                <input name="berita"  id="berita"  type="checkbox" autocomplete="off"> Berita
-                            </label>
-                            <label class="all   rounded btn border    bold btn-outline-success">
-                                <input   name="all"    type="checkbox"  > All
-                            </label>
-                        </div>   -->
-
-                                </div>
-                            </div>
-
                             <div>
                                 <button type="submit" class="btn btn-primary btn-sm">
                                     <i class="fa fa-dot-circle-o"></i> Submit
@@ -167,9 +99,7 @@
                             </div>
                         </form>
                     </div>
-
                 </div>
-
             </div>
 
             <script>
