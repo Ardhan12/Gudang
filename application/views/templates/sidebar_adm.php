@@ -2,7 +2,7 @@
 <aside class="menu-sidebar d-none d-lg-block">
                     <div >
                     <a  href="<?=base_url("admin/home")?>">
-                            <img src="<?= base_url() ?>assets/images/sarugo-logo.png" alt="SARUGO" />
+                            <img src="<?= base_url() ?>assets/images/GOODANG.png" alt="SARUGO" />
                         </a>
                     </div>
                     <div class="menu-sidebar2__content ">
@@ -63,7 +63,7 @@
                                 <?php if(isset($this->session->admin->wisata) && $this->session->admin->wisata ) : ?>
                                     <li>
                                         <a href="<?=base_url("admin/wisata")?>">
-                                            <i class="fas fa-location-arrow"></i>Wisata
+                                            <i class="fas fa-location-arrow"></i>Kategori
                                         </a>
                                     </li>
                                 <?php endif ?>

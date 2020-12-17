@@ -80,7 +80,7 @@
             <div class="col-lg-6 col-md-6 mt-4 mt-md-0  ">
               <div class="row">
                 <div id="#keterangan" class="box featured shadow">
-                  <h3>Keterangan Wisata</h3>
+                  <h3>Keterangan Kategori</h3>
                   <div class="text-left">
                   <p id="keteranganUtama"><?=$wisata->keterangan?></p>
                   </div>

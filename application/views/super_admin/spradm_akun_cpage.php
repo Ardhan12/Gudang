@@ -100,18 +100,18 @@
                                         
                                       <div class="row ">
                                             <div class="col-sm">
-                                                <input class="access" name="hal_statis" id="hal_statis" type="checkbox" autocomplete="off"> <label for="hal_statis">Halaman Statis</label> <br>
+                                                <!-- <input class="access" name="hal_statis" id="hal_statis" type="checkbox" autocomplete="off"> <label for="hal_statis">Halaman Statis</label> <br>
                                                 <input class="access" name="menu" id="menu" type="checkbox"> <label for="menu">Menu</label><br>
                                                 <input class="access" name="sub_menu" id="sub_menu" type="checkbox" autocomplete="off"> <label for="sub_menu">Sub Menu</label><br>
                                                 <input class="access" name="event" id="event" type="checkbox" autocomplete="off"> <label for="event">Event</label><br>
-                                                <input class="access" name="banner"  id="banner" type="checkbox" autocomplete="off"> <label for="banner">Banner-Slider</label><br>
+                                                <input class="access" name="banner"  id="banner" type="checkbox" autocomplete="off"> <label for="banner">Banner-Slider</label><br> -->
                                             </div>
                                             <div class="col-sm">
-                                                <input class="access" name="wisata" id="wisata" type="checkbox" autocomplete="off"> <label for="wisata">Wisata</label><br>
+                                                <input class="access" name="wisata" id="wisata" type="checkbox" autocomplete="off"> <label for="wisata">Kategori</label><br>
                                                 <input class="access" name="produk" id="produk" type="checkbox" autocomplete="off"> <label for="produk">Produk</label><br>
-                                                <input class="access" name="paket_wisata" id="paket_wisata" type="checkbox" autocomplete="off"> <label for="paket_wisata">Paket Wisata</label><br>
+                                                <!-- <input class="access" name="paket_wisata" id="paket_wisata" type="checkbox" autocomplete="off"> <label for="paket_wisata">Paket Wisata</label><br>
                                                 <input class="access" name="testimoni" id="testimoni" type="checkbox" autocomplete="off"> <label for="testimoni">Testimoni</label><br>
-                                                <input class="access" name="berita" id="berita" type="checkbox" autocomplete="off"> <label for="berita">Berita</label><br>
+                                                <input class="access" name="berita" id="berita" type="checkbox" autocomplete="off"> <label for="berita">Berita</label><br> -->
                                             </div>
                                           <div class="col-sm">
                                                 <input name="all" id="all" type="checkbox"> <label for="all">Semua</label><br>
